@@ -1,3 +1,9 @@
 nav {
     background-image: "./images/paddleboarding_reduced.png";
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1vw;
+    grid-template-rows: 33vh 20vh 20vh 27vh;
+}
