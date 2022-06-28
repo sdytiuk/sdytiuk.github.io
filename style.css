@@ -1,9 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Source+Code+Pro:wght@600&family=Syne+Mono&display=swap');
+
 nav {
-    background-image: "./images/paddleboarding_reduced.png";
+    background-image: url("./images/paddleboarding_reduced.png");
+    display: grid;
+    grid-template-columns: repeat(4,25vw);
+    grid-template-rows: 50px auto;
+    text-align: center;
+}
+
+nav>a{
+    background-color: #505e45;
+    color:#Fbeaba;
+    font-family: 'Syne Mono',monospace;
+    font-size: 16px;
+}
+
+a:hover{
+    background-color: #83a8cc;
 }
 
 body {
     display: grid;
-    grid-template-columns: 1vw;
-    grid-template-rows: 33vh 20vh 20vh 27vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45vh 70px auto auto;
+}
+
+header {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: 36px;
+    background-color: #c7b88e;
+    color: #163d3d;
+    padding: 10px;
+}
+
+section {
+    grid-template-columns: repeat(2,50vw);
+    display: grid;
+    background-color: #163d3d;
+    font-family: 'Source Code Pro', monospace;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+    margin: 20px; 
+}
+
+#apega {
+    background-color: #a1c4e6;
+}
+
+#cnt {
+    background-color: #809462;
+}
+
+aside {
+    background-color: #83a8cc;
+    color: #211f14;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
 }
