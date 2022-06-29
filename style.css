@@ -21,9 +21,10 @@ a:hover{
 
 body {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 98vw;
     grid-template-rows: 45vh 70px auto auto auto;
     background-color: #66878e;
+    font-family: 'Source Code Pro', monospace;
 }
 
 header {
@@ -65,5 +66,7 @@ aside {
     display: block;
 }
 
-
+table {
+    margin: 10px;
+}
 
